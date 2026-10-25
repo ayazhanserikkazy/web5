@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Assignment 5</h1>
+    <p class="student-info">Student: Serikkazy Ayazhan Group: MT-2501</p>
+    
+    
+    <section class="task-section" id="task-6">
+      <h2>A counter with click events</h2>
+      <div class="counter-box">
+        <span id="counter-value">0</span>
+        <div class="button-group">
+          <button id="btn-decrease">Decrease</button>
+          <button id="btn-reset">Reset</button>
+          <button id="btn-increase">Increase</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="task-section" id="task-7">
+      <h2>Live text preview</h2>
+      <div class="form-group">
+        <label for="text-input">Type something:</label>
+        <input type="text" id="text-input" placeholder="Type here...">
+      </div>
+      <p>
+        <strong>Preview:</strong>
+        <span id="text-preview">Your text will appear here</span>
+      </p>
+      <p>
+        <strong>Character count:</strong>
+        <span id="char-count">0</span>
+      </p>
+      <button id="btn-clear-text">Clear</button>
+    </section>
+    
+    
+    <section class="task-section" id="task-8">
+      <h2>Change an image with a select control</h2>
+      <div class="form-group">
+        <label for="image-select">Choose an image:</label>
+        <select id="image-select">
+          <option value="img1">Lily</option>
+          <option value="img2">Rose</option>
+          <option value="img3">Momoko</option>
+        </select>
+      </div>
+      <div class="image-display-box">
+        <img id="display-image" src="" alt="Initial image">
+        <p id="image-caption"></p>
+      </div>
+    </section>
+
+
+    <section class="task-section" id="task-9">
+      <h2>Keyboard events</h2>
+      <form id="keyboard-form" onsubmit="return false;">
+        <div class="form-group">
+          <label for="key-input">Focus here and press keys:</label>
+          <input type="text" id="key-input" placeholder="Press enter or escape...">
+        </div>
+      </form>
+      <p>
+        <strong>Last key pressed:</strong>
+        <span id="key-status">None</span>
+      </p>
+      <p>
+        <strong>Submitted text:</strong>
+        <span id="result-text">None</span>
+      </p>
+    </section>
+
+
+    <section class="task-section" id="task-10">
+      <h2>Mouse and focus events</h2>
+      <p id="instruction-text">Hover over the card or focus on it using the Tab key</p>
+      <div id="interactive-card" tabindex="0">
+        Interactive focusable card
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

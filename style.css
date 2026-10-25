@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color:darkslategrey;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+    color:forestgreen;
+}
+.student-info{
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+.task-section{
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid hotpink;
+    border-radius: 6px;
+    background-color: mintcream;
+}
+.task-section h2{
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: green;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+input[type="text"], select{
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+button{
+    padding: 8px 16px;
+    background-color:greenyellow;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: greenyellow;
+}
+.counter-box{
+    text-align: center;
+}
+#counter-value{
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+    color: forestgreen;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-display-box img{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+#image-caption{
+    font-style: italic;
+    color: darkslategrey;
+}
+
+#interactive-card{
+    padding: 30px;
+    background-color: whitesmoke;
+    border: 2px dashed floralwhite;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.highlight{
+    background-color:lightpink !important;
+    border-color:hotpink !important;
+    color:deeppink;
+    transform: scale(1.02);
+}
+#interactive-card:focus{
+    outline: 3px solid greenyellow;
+    outline-offset: 2px;
+}
